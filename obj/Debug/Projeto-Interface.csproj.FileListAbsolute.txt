@@ -1,0 +1,8 @@
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\bin\Debug\Projeto-Interface.exe.config
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\bin\Debug\Projeto-Interface.exe
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\bin\Debug\Projeto-Interface.pdb
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\obj\Debug\Projeto-Interface.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\obj\Debug\Projeto-Interface.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\obj\Debug\Projeto-Interface.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\obj\Debug\Projeto-Interface.exe
+C:\Users\Vinicius\Desktop\ProjetosC#\Projeto-Interface\obj\Debug\Projeto-Interface.pdb

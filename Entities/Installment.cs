@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Projeto_Interface.Entities
 {
@@ -19,7 +20,7 @@ namespace Projeto_Interface.Entities
 
         public override string ToString()
         {
-            return $"{DueDate.ToString("dd/MM/yyyy")} - {Amount}";
+            return $"{DueDate.ToString("dd/MM/yyyy")} - {Amount.ToString("F2", CultureInfo.InvariantCulture)}";
         }
     }
 }

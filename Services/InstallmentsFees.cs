@@ -13,6 +13,6 @@ namespace Projeto_Interface.Services
             double N1 = (double) month / 100 * amount + amount;
             double instalment = N1 * 0.02 + N1;
             return instalment;
-        }
+          }
     }
 }

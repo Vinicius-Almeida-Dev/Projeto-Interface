@@ -11,11 +11,11 @@ namespace Projeto_Interface.Services
             _Fees = fees;
         }
 
-        public void ProcessContract(Contract contract)
+        public void ProcessContract(Contract contract, int month)
         {
-            double InstallmentV = contract.TotalValue / contract.Instalment;                      
+            double InstallmentV = contract.TotalValue / month;                      
 
-            for (int i = 1; i <= contract.Instalment; i++)
+            for (int i = 1; i <= month; i++)
             {
                 double DefinitiveInstallmentValue = _Fees.Interest(InstallmentV, i);
                 DateTime DefinitiveDueDate = contract.Date.AddMonths(i);

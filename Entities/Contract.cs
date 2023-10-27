@@ -11,18 +11,15 @@ namespace Projeto_Interface.Entities
         public int Number { get; set; }
         public DateTime Date { get; set; }
         public double TotalValue { get; set; }
-        public int Instalment { get; set; } 
         public List<Installment> Installments { get; set; } = new List<Installment>();
 
         
 
-        public Contract(int number, DateTime date, double totalValue, int instalment)
+        public Contract(int number, DateTime date, double totalValue)
         {
             Number = number;
             Date = date;
-            TotalValue = totalValue;   
-            Instalment = instalment;
-
+            TotalValue = totalValue;
         }
 
     }
